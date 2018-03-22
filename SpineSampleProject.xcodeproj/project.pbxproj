@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FE70EDE1599EBB11BD080F2 /* Pods_SpineSampleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0860639B965B0ACC1A8CF368 /* Pods_SpineSampleProject.framework */; };
+		7710A9C4203F708D001D5366 /* goblins-ess.json in Resources */ = {isa = PBXBuildFile; fileRef = 7710A9C3203F708D001D5366 /* goblins-ess.json */; };
 		778C8D95203F350200EA1A25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C8D94203F350200EA1A25 /* AppDelegate.swift */; };
-		778C8D97203F350200EA1A25 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 778C8D96203F350200EA1A25 /* GameScene.sks */; };
-		778C8D99203F350200EA1A25 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 778C8D98203F350200EA1A25 /* Actions.sks */; };
 		778C8D9B203F350200EA1A25 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C8D9A203F350200EA1A25 /* GameScene.swift */; };
 		778C8D9D203F350200EA1A25 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C8D9C203F350200EA1A25 /* GameViewController.swift */; };
 		778C8DA0203F350200EA1A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778C8D9E203F350200EA1A25 /* Main.storyboard */; };
@@ -18,16 +18,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0860639B965B0ACC1A8CF368 /* Pods_SpineSampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpineSampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4198A147B74077374EDE7F /* Pods-SpineSampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpineSampleProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpineSampleProject/Pods-SpineSampleProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7710A9C3203F708D001D5366 /* goblins-ess.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "goblins-ess.json"; sourceTree = "<group>"; };
 		778C8D91203F350200EA1A25 /* SpineSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpineSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778C8D94203F350200EA1A25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		778C8D96203F350200EA1A25 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		778C8D98203F350200EA1A25 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		778C8D9A203F350200EA1A25 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		778C8D9C203F350200EA1A25 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		778C8D9F203F350200EA1A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		778C8DA1203F350200EA1A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		778C8DA4203F350200EA1A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		778C8DA6203F350200EA1A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4C7E843F882DE86016AC5C /* Pods-SpineSampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpineSampleProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpineSampleProject/Pods-SpineSampleProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE70EDE1599EBB11BD080F2 /* Pods_SpineSampleProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11F1164EBDD031444943A24B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0860639B965B0ACC1A8CF368 /* Pods_SpineSampleProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		778C8D88203F350200EA1A25 = {
 			isa = PBXGroup;
 			children = (
 				778C8D93203F350200EA1A25 /* SpineSampleProject */,
 				778C8D92203F350200EA1A25 /* Products */,
+				EE446723962BCEB25034B546 /* Pods */,
+				11F1164EBDD031444943A24B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,16 +74,24 @@
 			isa = PBXGroup;
 			children = (
 				778C8D94203F350200EA1A25 /* AppDelegate.swift */,
-				778C8D96203F350200EA1A25 /* GameScene.sks */,
-				778C8D98203F350200EA1A25 /* Actions.sks */,
 				778C8D9A203F350200EA1A25 /* GameScene.swift */,
 				778C8D9C203F350200EA1A25 /* GameViewController.swift */,
 				778C8D9E203F350200EA1A25 /* Main.storyboard */,
 				778C8DA1203F350200EA1A25 /* Assets.xcassets */,
+				7710A9C3203F708D001D5366 /* goblins-ess.json */,
 				778C8DA3203F350200EA1A25 /* LaunchScreen.storyboard */,
 				778C8DA6203F350200EA1A25 /* Info.plist */,
 			);
 			path = SpineSampleProject;
+			sourceTree = "<group>";
+		};
+		EE446723962BCEB25034B546 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A4198A147B74077374EDE7F /* Pods-SpineSampleProject.debug.xcconfig */,
+				FA4C7E843F882DE86016AC5C /* Pods-SpineSampleProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 778C8DA9203F350200EA1A25 /* Build configuration list for PBXNativeTarget "SpineSampleProject" */;
 			buildPhases = (
+				E893E201439C3E72C6AB7948 /* [CP] Check Pods Manifest.lock */,
 				778C8D8D203F350200EA1A25 /* Sources */,
 				778C8D8E203F350200EA1A25 /* Frameworks */,
 				778C8D8F203F350200EA1A25 /* Resources */,
+				C8C3B4F9D909FC157E550280 /* [CP] Embed Pods Frameworks */,
+				123687054A8611E47187427A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +157,67 @@
 			buildActionMask = 2147483647;
 			files = (
 				778C8DA0203F350200EA1A25 /* Main.storyboard in Resources */,
-				778C8D97203F350200EA1A25 /* GameScene.sks in Resources */,
 				778C8DA2203F350200EA1A25 /* Assets.xcassets in Resources */,
 				778C8DA5203F350200EA1A25 /* LaunchScreen.storyboard in Resources */,
-				778C8D99203F350200EA1A25 /* Actions.sks in Resources */,
+				7710A9C4203F708D001D5366 /* goblins-ess.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		123687054A8611E47187427A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpineSampleProject/Pods-SpineSampleProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C3B4F9D909FC157E550280 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpineSampleProject/Pods-SpineSampleProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Spine/Spine.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spine.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpineSampleProject/Pods-SpineSampleProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E893E201439C3E72C6AB7948 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpineSampleProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		778C8D8D203F350200EA1A25 /* Sources */ = {
@@ -284,10 +361,11 @@
 		};
 		778C8DAA203F350200EA1A25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4198A147B74077374EDE7F /* Pods-SpineSampleProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29E66XW7ZX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SpineSampleProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.maxgribov.SpineSampleProject;
@@ -299,10 +377,11 @@
 		};
 		778C8DAB203F350200EA1A25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA4C7E843F882DE86016AC5C /* Pods-SpineSampleProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29E66XW7ZX;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SpineSampleProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.maxgribov.SpineSampleProject;
