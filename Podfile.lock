@@ -1,0 +1,16 @@
+PODS:
+  - Spine (1.2.1)
+
+DEPENDENCIES:
+  - Spine
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Spine
+
+SPEC CHECKSUMS:
+  Spine: 3d0b8899ea206304b62b76a8f504951f5578572d
+
+PODFILE CHECKSUM: 2df5853e1d963022a585d5dfb38ac8f6fb7d68e0
+
+COCOAPODS: 1.5.3

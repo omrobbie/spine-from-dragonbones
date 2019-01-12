@@ -1,0 +1,377 @@
+
+{
+    "skeleton": {
+        "width": 1592,
+        "height": 1541.59,
+        "fps": 24,
+        "spine": "3.6.0",
+        "hash": " ",
+        "name": "Armature"
+    },
+    "bones": [
+        {
+            "x": 133.7058,
+            "y": 267.4116,
+            "name": "root"
+        },
+        {
+            "length": 218,
+            "x": -156.5058,
+            "y": 3.8384,
+            "rotation": 92.4799,
+            "name": "Body",
+            "parent": "root"
+        },
+        {
+            "length": 130,
+            "x": -218.8558,
+            "y": -39.8616,
+            "rotation": -93.4117,
+            "name": "Rite_Leg",
+            "parent": "root"
+        },
+        {
+            "length": 149,
+            "x": -88.8558,
+            "y": -24.3616,
+            "rotation": -80.4271,
+            "name": "Left_Leg",
+            "parent": "root"
+        },
+        {
+            "length": 337,
+            "x": 262.1281,
+            "y": 1.9099,
+            "rotation": -4.3129,
+            "name": "Head",
+            "parent": "Body"
+        },
+        {
+            "length": 218,
+            "x": 194.5716,
+            "y": 134.9576,
+            "rotation": 172.1642,
+            "name": "Rite_Arm",
+            "parent": "Body"
+        },
+        {
+            "length": 216,
+            "x": 185.702,
+            "y": -84.8645,
+            "rotation": -162.5737,
+            "name": "Left_Arm",
+            "parent": "Body"
+        },
+        {
+            "length": 89,
+            "x": 159.6286,
+            "y": 1.7526,
+            "rotation": 11.4144,
+            "name": "bone3",
+            "parent": "Rite_Leg"
+        },
+        {
+            "length": 70,
+            "x": 178.4341,
+            "y": 6.0098,
+            "rotation": 19.2415,
+            "name": "bone4",
+            "parent": "Left_Leg"
+        },
+        {
+            "length": 66,
+            "x": 233.2592,
+            "y": -2.4163,
+            "rotation": -20.2629,
+            "name": "bone",
+            "parent": "Left_Arm"
+        },
+        {
+            "length": 125,
+            "x": -4.6889,
+            "y": 178.7641,
+            "rotation": 126.286,
+            "name": "Rite_tail",
+            "parent": "Head"
+        },
+        {
+            "length": 92,
+            "x": 10.8088,
+            "y": -141.4806,
+            "rotation": -123.2337,
+            "name": "bone2",
+            "parent": "Head"
+        },
+        {
+            "length": 76,
+            "x": 243.7486,
+            "y": 2.3131,
+            "rotation": -10.2205,
+            "name": "bone1",
+            "parent": "Rite_Arm"
+        }
+    ],
+    "slots": [
+        {
+            "name": "Left_Hand",
+            "bone": "bone",
+            "attachment": "Asset 28"
+        },
+        {
+            "name": "Left_Foot",
+            "bone": "bone4",
+            "attachment": "Asset 32"
+        },
+        {
+            "name": "Left_Leg",
+            "bone": "Left_Leg",
+            "attachment": "Asset 31"
+        },
+        {
+            "name": "Rite_Foot",
+            "bone": "bone3",
+            "attachment": "Asset 30"
+        },
+        {
+            "name": "Rite_Leg",
+            "bone": "Rite_Leg",
+            "attachment": "Asset 29"
+        },
+        {
+            "name": "Left_Arm",
+            "bone": "Left_Arm",
+            "attachment": "Asset 27"
+        },
+        {
+            "name": "Body",
+            "bone": "Body",
+            "attachment": "Asset 26"
+        },
+        {
+            "name": "Rite_Hand",
+            "bone": "bone1",
+            "attachment": "Asset 25"
+        },
+        {
+            "name": "Rite_Arm",
+            "bone": "Rite_Arm",
+            "attachment": "Asset 24"
+        },
+        {
+            "name": "Left_tail",
+            "bone": "bone2",
+            "attachment": "Asset 22"
+        },
+        {
+            "name": "Rite_tail",
+            "bone": "Rite_tail",
+            "attachment": "Asset 23"
+        },
+        {
+            "name": "Head",
+            "bone": "Head",
+            "attachment": "Asset 17"
+        },
+        {
+            "name": "Mouth",
+            "bone": "Head",
+            "attachment": "Asset 21"
+        },
+        {
+            "name": "Eyes",
+            "bone": "Head",
+            "attachment": "Asset 18"
+        }
+    ],
+    "skins": {
+        "default": {
+            "Rite_Arm": {
+                "Asset 24": {
+                    "name": "Asset 24",
+                    "x": 110.86,
+                    "y": -8.89,
+                    "rotation": 89.24,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Left_Foot": {
+                "Asset 32": {
+                    "name": "Asset 32",
+                    "x": 20.29,
+                    "y": 9.46,
+                    "rotation": 61.19,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Rite_tail": {
+                "Asset 23": {
+                    "name": "Asset 23",
+                    "x": 67.83,
+                    "y": -12.18,
+                    "rotation": 149.02,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Rite_Foot": {
+                "Asset 30": {
+                    "name": "Asset 30",
+                    "x": 25.71,
+                    "y": 15.17,
+                    "rotation": 82,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Mouth": {
+                "Asset 21": {
+                    "name": "Asset 21",
+                    "x": -44.16,
+                    "y": -46.83,
+                    "rotation": -90.64,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Left_Arm": {
+                "Asset 27": {
+                    "name": "Asset 27",
+                    "x": 113.31,
+                    "y": 2.74,
+                    "rotation": 67.42,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Rite_Hand": {
+                "Asset 25": {
+                    "name": "Asset 25",
+                    "x": 11.26,
+                    "y": 15.75,
+                    "rotation": 70.53,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Left_Hand": {
+                "Asset 28": {
+                    "name": "Asset 28",
+                    "x": 13,
+                    "y": 0.14,
+                    "rotation": 104.84,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Left_tail": {
+                "Asset 22": {
+                    "name": "Asset 22",
+                    "x": 57.68,
+                    "y": 6.04,
+                    "rotation": 36.6,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Left_Leg": {
+                "Asset 31": {
+                    "name": "Asset 31",
+                    "x": 70.13,
+                    "y": 4.59,
+                    "rotation": 80.43,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Head": {
+                "Asset 17": {
+                    "name": "Asset 17",
+                    "x": 175.13,
+                    "y": 61.78,
+                    "rotation": -90.64,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Rite_Leg": {
+                "Asset 29": {
+                    "name": "Asset 29",
+                    "x": 52.8,
+                    "y": 1.28,
+                    "rotation": 93.41,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Eyes": {
+                "Asset 18": {
+                    "name": "Asset 18",
+                    "x": 55.84,
+                    "y": -46.89,
+                    "rotation": -90.64,
+                    "scaleX": 0.35,
+                    "scaleY": 0.35
+                }
+            },
+            "Body": {
+                "Asset 26": {
+                    "name": "Asset 26",
+                    "x": 89.8,
+                    "y": 11.26,
+                    "rotation": -92.48,
+                    "scaleX": 0.2898,
+                    "scaleY": 0.2898
+                }
+            }
+        }
+    },
+    "animations": {
+        "geleng": {
+            "bones": {
+                "Head": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 1.52
+                        },
+                        {
+                            "time": 0.4167,
+                            "angle": 14.58
+                        },
+                        {
+                            "time": 0.8334,
+                            "angle": 2.89
+                        },
+                        {
+                            "time": 1.2501,
+                            "angle": -5.77
+                        },
+                        {
+                            "time": 1.6668,
+                            "angle": 2.09
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "time": 0
+                        },
+                        {
+                            "time": 0.4167
+                        },
+                        {
+                            "time": 0.8334
+                        },
+                        {
+                            "time": 1.2501
+                        },
+                        {
+                            "time": 1.6668
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

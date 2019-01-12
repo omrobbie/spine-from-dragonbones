@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045D3C080A266EA515592667AC9B90F4 /* Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820CDE9E2517C13606DD50FF4D6B4C07 /* Skeleton.swift */; };
+		223258216DE3DF13CCAC1DEAD4A08D9E /* CGPath+Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2E05B871158FC86C728C5B37C117A9 /* CGPath+Spine.swift */; };
+		2E89DACB3E3EF0E5A27584AF35314A0E /* Spine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4291DD7E3B97ADA178F5AC76345190CA /* Spine-dummy.m */; };
+		3315D40ACCA9F48BF642116195174950 /* Skeleton+Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492031C81E827279D077CF90015751E0 /* Skeleton+Physics.swift */; };
+		35E0935EC979F0205062AAF5560907B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48642C10D6723F6A6B7531FB80B392C2 /* Foundation.framework */; };
+		5519A6F9D88D08815CD5993D42C4C1C6 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24B6F6DE0103F54548E09B140D161B7 /* Slot.swift */; };
+		57E06988DFF78BA34A1394358C363662 /* SpineModel+Atlases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3C33465E3AE179D3433A0F8ABD1F08 /* SpineModel+Atlases.swift */; };
+		5911F6E3F1311679307439BF439CBC14 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE888345B561C0548523A05AF0B8FA9 /* SpriteKit.framework */; };
+		60551C7B985744C4581F802CB2450CD0 /* SkinModel+Atlases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255A483B8C9773441D421F634A0BEDE9 /* SkinModel+Atlases.swift */; };
+		6521C20986AF21261EACCA40449836CF /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9D98F95370D42A7FE2A6A9A9DF1DF /* Animation.swift */; };
+		6947CDC3CAEA58B392DC87E06FE36C1F /* SkeletonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9278A0247671AB486584B39B255AFA /* SkeletonModel.swift */; };
+		6B01593B109EAC2B9510E37B05FD09AC /* Defaultable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D6A0F25934E26884BE0C1D2B13ECE /* Defaultable.swift */; };
+		6D5D9A7786628BB448A2BAB6BEEDC05A /* SkinModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5588576B69E0963856A9A42D1D417DD2 /* SkinModels.swift */; };
+		71C169B070C0067AA0BD7678F34A46A6 /* BezierCurveSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68B3503BECD586EBE2CF05B51E14F6E /* BezierCurveSolver.swift */; };
+		7B9A8286F5F0C7D158F93F093B6A233A /* Skeleton+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CFAE6AD280C75E58806B1DAC20ABE4 /* Skeleton+Skins.swift */; };
+		8327FC730A437ABAB9ED205054F1C9B4 /* Pods-SpineSampleProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8975BB24AC5B3E5369A16E0CE1E2A33 /* Pods-SpineSampleProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C2594CFBE6D569EDE789DF01C62A72 /* SKAction+Spine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6809D2211C2BC8E6D581D1124139E5 /* SKAction+Spine.swift */; };
+		8AACAB27CCDA052AE6D06C65B4E88EA4 /* Bone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAD97EE4FEF945595BDFD6E5BF3FC22 /* Bone.swift */; };
+		99BAE6F1AE095C183CA35CC3BF3E8453 /* AnimationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F4F4117716B461A4C1B625E8053F5 /* AnimationModels.swift */; };
+		A1CA1D940185F0FBDAC6574747AF8638 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B144DCC761BE90505922AC178DB7EE2 /* Color.swift */; };
+		A91AAA8580108230111212A9A2110BD3 /* SkinSlotModel+Atlases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62C9978174C3F6040DD927090E8FC3 /* SkinSlotModel+Atlases.swift */; };
+		AEA1A9DC71AFC5666F2269E77811EBA8 /* Skeleton+Defaultable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965C7FF1F49691606FE5B825DCFC3331 /* Skeleton+Defaultable.swift */; };
+		B2D13AE1EB64D2A455FCC7ABA308177F /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEF4EC15CFF56CA6E0856B66577C83D /* Attachment.swift */; };
+		C8E69CE2745785B8D4A90C66CDB6A8B3 /* Spine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0954C6FA3F69DC2580BB07D6B9315220 /* Spine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCD205AAD7289E2190EB3C50A95B990C /* Skeleton+Atlases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78571F7559CDCDF01A85A2A8A3A7DF91 /* Skeleton+Atlases.swift */; };
+		CD7E42D9083B5F3C25DA7BF83E39A60B /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13199C17220252AAC74FAB402135D6E6 /* EventModel.swift */; };
+		D268D432EAE9D75DAB920CB2B19EE5EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48642C10D6723F6A6B7531FB80B392C2 /* Foundation.framework */; };
+		E48339BE8AEEFAF63AAEDD2A128A9987 /* Skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A8A254A930A42E4DF988D53FA33911 /* Skin.swift */; };
+		E5427544A64963836D5DFBCEBBFB95CA /* Skeleton+Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1B1D5AE31903716B0E5B3BB4E9DF67 /* Skeleton+Points.swift */; };
+		E559B964D79D63C06BB3BB919FA777F6 /* ConstraintsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF6B12FB050CC241794BBA3EA6E5D2C /* ConstraintsModels.swift */; };
+		E78CE3B53E29BB4446A9902EDB96D69B /* Pods-SpineSampleProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E00DE611D71B6B8C2C252CA709770F12 /* Pods-SpineSampleProject-dummy.m */; };
+		EAB81740BB23521C13C3817B914F29EC /* SpineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C789080A3AED64E63DAE160205C4E2AC /* SpineModel.swift */; };
+		F30391CF2D40B740667FF9958F067A52 /* Prefixable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB90451C7E81A29766E7B41EF64D71C /* Prefixable.swift */; };
+		FD5218E944C216277079D3F7068E56B1 /* Skeleton+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8911FA1A89BC3DAC9F2E9D34D96A2A /* Skeleton+Animations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7ABCDF052CD452739112F361C815CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB3A7375E282FBB40F8DEB2CC776090;
+			remoteInfo = Spine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BDCFE49F4101AE0B7E372F6B88CC9B /* Spine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E2C8090AFE21D0E195FB5CAB2586DA /* Pods-SpineSampleProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpineSampleProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		0954C6FA3F69DC2580BB07D6B9315220 /* Spine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spine-umbrella.h"; sourceTree = "<group>"; };
+		0F4820CA2880F937CE72F209D6A4438B /* Pods_SpineSampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpineSampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13199C17220252AAC74FAB402135D6E6 /* EventModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventModel.swift; path = Spine/Model/EventModel.swift; sourceTree = "<group>"; };
+		1B144DCC761BE90505922AC178DB7EE2 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Spine/Utilities/Color.swift; sourceTree = "<group>"; };
+		1F9278A0247671AB486584B39B255AFA /* SkeletonModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonModel.swift; path = Spine/Model/SkeletonModel.swift; sourceTree = "<group>"; };
+		2339E30453C0D45054EF6575FD308F6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255A483B8C9773441D421F634A0BEDE9 /* SkinModel+Atlases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SkinModel+Atlases.swift"; path = "Spine/Extensions/SkinModel+Atlases.swift"; sourceTree = "<group>"; };
+		27FBCA02BE8D3F3081C731E518AF84C9 /* Pods-SpineSampleProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpineSampleProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FB90451C7E81A29766E7B41EF64D71C /* Prefixable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Prefixable.swift; path = Spine/Protocols/Prefixable.swift; sourceTree = "<group>"; };
+		2FF6B12FB050CC241794BBA3EA6E5D2C /* ConstraintsModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintsModels.swift; path = Spine/Model/ConstraintsModels.swift; sourceTree = "<group>"; };
+		3F2DD8C5C9A6CA53C5A41DCE3AA4D592 /* Spine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Spine.modulemap; sourceTree = "<group>"; };
+		4291DD7E3B97ADA178F5AC76345190CA /* Spine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spine-dummy.m"; sourceTree = "<group>"; };
+		48642C10D6723F6A6B7531FB80B392C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		492031C81E827279D077CF90015751E0 /* Skeleton+Physics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Skeleton+Physics.swift"; path = "Spine/Extensions/Skeleton+Physics.swift"; sourceTree = "<group>"; };
+		5588576B69E0963856A9A42D1D417DD2 /* SkinModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkinModels.swift; path = Spine/Model/SkinModels.swift; sourceTree = "<group>"; };
+		59CFAE6AD280C75E58806B1DAC20ABE4 /* Skeleton+Skins.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Skeleton+Skins.swift"; path = "Spine/Extensions/Skeleton+Skins.swift"; sourceTree = "<group>"; };
+		5FD9D98F95370D42A7FE2A6A9A9DF1DF /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = Spine/Animation.swift; sourceTree = "<group>"; };
+		6A8911FA1A89BC3DAC9F2E9D34D96A2A /* Skeleton+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Skeleton+Animations.swift"; path = "Spine/Extensions/Skeleton+Animations.swift"; sourceTree = "<group>"; };
+		78571F7559CDCDF01A85A2A8A3A7DF91 /* Skeleton+Atlases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Skeleton+Atlases.swift"; path = "Spine/Extensions/Skeleton+Atlases.swift"; sourceTree = "<group>"; };
+		7C3C33465E3AE179D3433A0F8ABD1F08 /* SpineModel+Atlases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SpineModel+Atlases.swift"; path = "Spine/Extensions/SpineModel+Atlases.swift"; sourceTree = "<group>"; };
+		7DAD97EE4FEF945595BDFD6E5BF3FC22 /* Bone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bone.swift; path = Spine/Bone.swift; sourceTree = "<group>"; };
+		820CDE9E2517C13606DD50FF4D6B4C07 /* Skeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Skeleton.swift; path = Spine/Skeleton.swift; sourceTree = "<group>"; };
+		8BFF540056275B8BFD0F710517DFEF48 /* Pods-SpineSampleProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpineSampleProject.modulemap"; sourceTree = "<group>"; };
+		8CE7E0A591C840C30A09686561665A19 /* Spine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spine-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		965C7FF1F49691606FE5B825DCFC3331 /* Skeleton+Defaultable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Skeleton+Defaultable.swift"; path = "Spine/Extensions/Skeleton+Defaultable.swift"; sourceTree = "<group>"; };
+		96EDA768992F10D08F68AB88238CD21F /* Pods-SpineSampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpineSampleProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9C8E834B3CCD4429963FA8925E265704 /* Pods-SpineSampleProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpineSampleProject-resources.sh"; sourceTree = "<group>"; };
+		9CEF4EC15CFF56CA6E0856B66577C83D /* Attachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attachment.swift; path = Spine/Attachment.swift; sourceTree = "<group>"; };
+		9D62C9978174C3F6040DD927090E8FC3 /* SkinSlotModel+Atlases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SkinSlotModel+Atlases.swift"; path = "Spine/Extensions/SkinSlotModel+Atlases.swift"; sourceTree = "<group>"; };
+		A24B6F6DE0103F54548E09B140D161B7 /* Slot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Slot.swift; path = Spine/Slot.swift; sourceTree = "<group>"; };
+		A68B3503BECD586EBE2CF05B51E14F6E /* BezierCurveSolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BezierCurveSolver.swift; path = Spine/Utilities/BezierCurveSolver.swift; sourceTree = "<group>"; };
+		ABF0132A1408EA9B8B1B11C0B1661E83 /* Pods-SpineSampleProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpineSampleProject-frameworks.sh"; sourceTree = "<group>"; };
+		B98D6A0F25934E26884BE0C1D2B13ECE /* Defaultable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Defaultable.swift; path = Spine/Protocols/Defaultable.swift; sourceTree = "<group>"; };
+		C52FA2D1D2BD36A0BE6A7DEC70A1E0A9 /* Pods-SpineSampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpineSampleProject.release.xcconfig"; sourceTree = "<group>"; };
+		C789080A3AED64E63DAE160205C4E2AC /* SpineModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpineModel.swift; path = Spine/Model/SpineModel.swift; sourceTree = "<group>"; };
+		C8975BB24AC5B3E5369A16E0CE1E2A33 /* Pods-SpineSampleProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpineSampleProject-umbrella.h"; sourceTree = "<group>"; };
+		CC2E05B871158FC86C728C5B37C117A9 /* CGPath+Spine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPath+Spine.swift"; path = "Spine/Extensions/CGPath+Spine.swift"; sourceTree = "<group>"; };
+		CD0AD4F3A0E151921BC163F06E4D6F34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9F4F4117716B461A4C1B625E8053F5 /* AnimationModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationModels.swift; path = Spine/Model/AnimationModels.swift; sourceTree = "<group>"; };
+		DC6809D2211C2BC8E6D581D1124139E5 /* SKAction+Spine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKAction+Spine.swift"; path = "Spine/Extensions/SKAction+Spine.swift"; sourceTree = "<group>"; };
+		E00DE611D71B6B8C2C252CA709770F12 /* Pods-SpineSampleProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpineSampleProject-dummy.m"; sourceTree = "<group>"; };
+		E38DBC8B580F7B17757EDEFAB1733221 /* Spine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spine.xcconfig; sourceTree = "<group>"; };
+		E8A8A254A930A42E4DF988D53FA33911 /* Skin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Skin.swift; path = Spine/Skin.swift; sourceTree = "<group>"; };
+		EFE888345B561C0548523A05AF0B8FA9 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
+		FD1B1D5AE31903716B0E5B3BB4E9DF67 /* Skeleton+Points.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Skeleton+Points.swift"; path = "Spine/Extensions/Skeleton+Points.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C15F0C4E317DF8DB4F218F1BFB3A9C46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D268D432EAE9D75DAB920CB2B19EE5EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34A93DA55A616ED8859ADCD08027279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E0935EC979F0205062AAF5560907B7 /* Foundation.framework in Frameworks */,
+				5911F6E3F1311679307439BF439CBC14 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19767CC552847AD3C5250A91A91E1880 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF565E95CB33B399E35D5C96D4673FCB /* Pods-SpineSampleProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5F5659AF837A163C971F1A543F9B1FB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6483242B01185439BBA44893C97F637B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F4820CA2880F937CE72F209D6A4438B /* Pods_SpineSampleProject.framework */,
+				01BDCFE49F4101AE0B7E372F6B88CC9B /* Spine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				FED1F1599CB16D89963FEBED8571AA8F /* Pods */,
+				6483242B01185439BBA44893C97F637B /* Products */,
+				19767CC552847AD3C5250A91A91E1880 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4E577878F460DE39BA1C44F8B37546 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD0AD4F3A0E151921BC163F06E4D6F34 /* Info.plist */,
+				3F2DD8C5C9A6CA53C5A41DCE3AA4D592 /* Spine.modulemap */,
+				E38DBC8B580F7B17757EDEFAB1733221 /* Spine.xcconfig */,
+				4291DD7E3B97ADA178F5AC76345190CA /* Spine-dummy.m */,
+				8CE7E0A591C840C30A09686561665A19 /* Spine-prefix.pch */,
+				0954C6FA3F69DC2580BB07D6B9315220 /* Spine-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Spine";
+			sourceTree = "<group>";
+		};
+		BF565E95CB33B399E35D5C96D4673FCB /* Pods-SpineSampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				2339E30453C0D45054EF6575FD308F6E /* Info.plist */,
+				8BFF540056275B8BFD0F710517DFEF48 /* Pods-SpineSampleProject.modulemap */,
+				27FBCA02BE8D3F3081C731E518AF84C9 /* Pods-SpineSampleProject-acknowledgements.markdown */,
+				08E2C8090AFE21D0E195FB5CAB2586DA /* Pods-SpineSampleProject-acknowledgements.plist */,
+				E00DE611D71B6B8C2C252CA709770F12 /* Pods-SpineSampleProject-dummy.m */,
+				ABF0132A1408EA9B8B1B11C0B1661E83 /* Pods-SpineSampleProject-frameworks.sh */,
+				9C8E834B3CCD4429963FA8925E265704 /* Pods-SpineSampleProject-resources.sh */,
+				C8975BB24AC5B3E5369A16E0CE1E2A33 /* Pods-SpineSampleProject-umbrella.h */,
+				96EDA768992F10D08F68AB88238CD21F /* Pods-SpineSampleProject.debug.xcconfig */,
+				C52FA2D1D2BD36A0BE6A7DEC70A1E0A9 /* Pods-SpineSampleProject.release.xcconfig */,
+			);
+			name = "Pods-SpineSampleProject";
+			path = "Target Support Files/Pods-SpineSampleProject";
+			sourceTree = "<group>";
+		};
+		D5F5659AF837A163C971F1A543F9B1FB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				48642C10D6723F6A6B7531FB80B392C2 /* Foundation.framework */,
+				EFE888345B561C0548523A05AF0B8FA9 /* SpriteKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F1F28CE0AE31E803CE7DE0BB0AD8F515 /* Spine */ = {
+			isa = PBXGroup;
+			children = (
+				5FD9D98F95370D42A7FE2A6A9A9DF1DF /* Animation.swift */,
+				CD9F4F4117716B461A4C1B625E8053F5 /* AnimationModels.swift */,
+				9CEF4EC15CFF56CA6E0856B66577C83D /* Attachment.swift */,
+				A68B3503BECD586EBE2CF05B51E14F6E /* BezierCurveSolver.swift */,
+				7DAD97EE4FEF945595BDFD6E5BF3FC22 /* Bone.swift */,
+				CC2E05B871158FC86C728C5B37C117A9 /* CGPath+Spine.swift */,
+				1B144DCC761BE90505922AC178DB7EE2 /* Color.swift */,
+				2FF6B12FB050CC241794BBA3EA6E5D2C /* ConstraintsModels.swift */,
+				B98D6A0F25934E26884BE0C1D2B13ECE /* Defaultable.swift */,
+				13199C17220252AAC74FAB402135D6E6 /* EventModel.swift */,
+				2FB90451C7E81A29766E7B41EF64D71C /* Prefixable.swift */,
+				DC6809D2211C2BC8E6D581D1124139E5 /* SKAction+Spine.swift */,
+				820CDE9E2517C13606DD50FF4D6B4C07 /* Skeleton.swift */,
+				6A8911FA1A89BC3DAC9F2E9D34D96A2A /* Skeleton+Animations.swift */,
+				78571F7559CDCDF01A85A2A8A3A7DF91 /* Skeleton+Atlases.swift */,
+				965C7FF1F49691606FE5B825DCFC3331 /* Skeleton+Defaultable.swift */,
+				492031C81E827279D077CF90015751E0 /* Skeleton+Physics.swift */,
+				FD1B1D5AE31903716B0E5B3BB4E9DF67 /* Skeleton+Points.swift */,
+				59CFAE6AD280C75E58806B1DAC20ABE4 /* Skeleton+Skins.swift */,
+				1F9278A0247671AB486584B39B255AFA /* SkeletonModel.swift */,
+				E8A8A254A930A42E4DF988D53FA33911 /* Skin.swift */,
+				255A483B8C9773441D421F634A0BEDE9 /* SkinModel+Atlases.swift */,
+				5588576B69E0963856A9A42D1D417DD2 /* SkinModels.swift */,
+				9D62C9978174C3F6040DD927090E8FC3 /* SkinSlotModel+Atlases.swift */,
+				A24B6F6DE0103F54548E09B140D161B7 /* Slot.swift */,
+				C789080A3AED64E63DAE160205C4E2AC /* SpineModel.swift */,
+				7C3C33465E3AE179D3433A0F8ABD1F08 /* SpineModel+Atlases.swift */,
+				AE4E577878F460DE39BA1C44F8B37546 /* Support Files */,
+			);
+			path = Spine;
+			sourceTree = "<group>";
+		};
+		FED1F1599CB16D89963FEBED8571AA8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1F28CE0AE31E803CE7DE0BB0AD8F515 /* Spine */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2D554CE0B8C92174D792B75209D6A4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E69CE2745785B8D4A90C66CDB6A8B3 /* Spine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE4C6DCD69DC7880428291B5ABE3A3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8327FC730A437ABAB9ED205054F1C9B4 /* Pods-SpineSampleProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DB09F94F4B64EC522000996114B82BD /* Pods-SpineSampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368A8784EF550CBB4D9938A2C726A8EC /* Build configuration list for PBXNativeTarget "Pods-SpineSampleProject" */;
+			buildPhases = (
+				EDE4C6DCD69DC7880428291B5ABE3A3F /* Headers */,
+				BF0449B4EB32C62E2E93BC80873D6954 /* Sources */,
+				C15F0C4E317DF8DB4F218F1BFB3A9C46 /* Frameworks */,
+				4B38CEBA67D2206645BBE3C33DCE9F6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F74C8C3445F8586461FA4FF1963B0335 /* PBXTargetDependency */,
+			);
+			name = "Pods-SpineSampleProject";
+			productName = "Pods-SpineSampleProject";
+			productReference = 0F4820CA2880F937CE72F209D6A4438B /* Pods_SpineSampleProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EB3A7375E282FBB40F8DEB2CC776090 /* Spine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05130279F47B8634EE5DD980931751D /* Build configuration list for PBXNativeTarget "Spine" */;
+			buildPhases = (
+				D2D554CE0B8C92174D792B75209D6A4E /* Headers */,
+				F7DBD2A91779271CFDF58C569585B29D /* Sources */,
+				F34A93DA55A616ED8859ADCD08027279 /* Frameworks */,
+				846A8025C388466E131911C0BFD817A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spine;
+			productName = Spine;
+			productReference = 01BDCFE49F4101AE0B7E372F6B88CC9B /* Spine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					3EB3A7375E282FBB40F8DEB2CC776090 = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6483242B01185439BBA44893C97F637B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DB09F94F4B64EC522000996114B82BD /* Pods-SpineSampleProject */,
+				3EB3A7375E282FBB40F8DEB2CC776090 /* Spine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B38CEBA67D2206645BBE3C33DCE9F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846A8025C388466E131911C0BFD817A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0449B4EB32C62E2E93BC80873D6954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78CE3B53E29BB4446A9902EDB96D69B /* Pods-SpineSampleProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DBD2A91779271CFDF58C569585B29D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6521C20986AF21261EACCA40449836CF /* Animation.swift in Sources */,
+				99BAE6F1AE095C183CA35CC3BF3E8453 /* AnimationModels.swift in Sources */,
+				B2D13AE1EB64D2A455FCC7ABA308177F /* Attachment.swift in Sources */,
+				71C169B070C0067AA0BD7678F34A46A6 /* BezierCurveSolver.swift in Sources */,
+				8AACAB27CCDA052AE6D06C65B4E88EA4 /* Bone.swift in Sources */,
+				223258216DE3DF13CCAC1DEAD4A08D9E /* CGPath+Spine.swift in Sources */,
+				A1CA1D940185F0FBDAC6574747AF8638 /* Color.swift in Sources */,
+				E559B964D79D63C06BB3BB919FA777F6 /* ConstraintsModels.swift in Sources */,
+				6B01593B109EAC2B9510E37B05FD09AC /* Defaultable.swift in Sources */,
+				CD7E42D9083B5F3C25DA7BF83E39A60B /* EventModel.swift in Sources */,
+				F30391CF2D40B740667FF9958F067A52 /* Prefixable.swift in Sources */,
+				86C2594CFBE6D569EDE789DF01C62A72 /* SKAction+Spine.swift in Sources */,
+				FD5218E944C216277079D3F7068E56B1 /* Skeleton+Animations.swift in Sources */,
+				CCD205AAD7289E2190EB3C50A95B990C /* Skeleton+Atlases.swift in Sources */,
+				AEA1A9DC71AFC5666F2269E77811EBA8 /* Skeleton+Defaultable.swift in Sources */,
+				3315D40ACCA9F48BF642116195174950 /* Skeleton+Physics.swift in Sources */,
+				E5427544A64963836D5DFBCEBBFB95CA /* Skeleton+Points.swift in Sources */,
+				7B9A8286F5F0C7D158F93F093B6A233A /* Skeleton+Skins.swift in Sources */,
+				045D3C080A266EA515592667AC9B90F4 /* Skeleton.swift in Sources */,
+				6947CDC3CAEA58B392DC87E06FE36C1F /* SkeletonModel.swift in Sources */,
+				E48339BE8AEEFAF63AAEDD2A128A9987 /* Skin.swift in Sources */,
+				60551C7B985744C4581F802CB2450CD0 /* SkinModel+Atlases.swift in Sources */,
+				6D5D9A7786628BB448A2BAB6BEEDC05A /* SkinModels.swift in Sources */,
+				A91AAA8580108230111212A9A2110BD3 /* SkinSlotModel+Atlases.swift in Sources */,
+				5519A6F9D88D08815CD5993D42C4C1C6 /* Slot.swift in Sources */,
+				2E89DACB3E3EF0E5A27584AF35314A0E /* Spine-dummy.m in Sources */,
+				57E06988DFF78BA34A1394358C363662 /* SpineModel+Atlases.swift in Sources */,
+				EAB81740BB23521C13C3817B914F29EC /* SpineModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F74C8C3445F8586461FA4FF1963B0335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Spine;
+			target = 3EB3A7375E282FBB40F8DEB2CC776090 /* Spine */;
+			targetProxy = B7ABCDF052CD452739112F361C815CC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26866E02E7B35363410C9800370022BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96EDA768992F10D08F68AB88238CD21F /* Pods-SpineSampleProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpineSampleProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpineSampleProject/Pods-SpineSampleProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E7A231C7D36EB502FA2EEBBF84B029A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8716550BC11F7BEA523AD4BDBA876D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8D2AC3616BCEECE488888E58FE61B918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E38DBC8B580F7B17757EDEFAB1733221 /* Spine.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Spine/Spine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spine/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spine/Spine.modulemap";
+				PRODUCT_MODULE_NAME = Spine;
+				PRODUCT_NAME = Spine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1D25DD6BBD1C99744D09FB6B4B3D883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E38DBC8B580F7B17757EDEFAB1733221 /* Spine.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Spine/Spine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spine/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spine/Spine.modulemap";
+				PRODUCT_MODULE_NAME = Spine;
+				PRODUCT_NAME = Spine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC3777F0287804DD145A4953906BF10C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52FA2D1D2BD36A0BE6A7DEC70A1E0A9 /* Pods-SpineSampleProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpineSampleProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpineSampleProject/Pods-SpineSampleProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8716550BC11F7BEA523AD4BDBA876D5D /* Debug */,
+				3E7A231C7D36EB502FA2EEBBF84B029A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368A8784EF550CBB4D9938A2C726A8EC /* Build configuration list for PBXNativeTarget "Pods-SpineSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26866E02E7B35363410C9800370022BB /* Debug */,
+				BC3777F0287804DD145A4953906BF10C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05130279F47B8634EE5DD980931751D /* Build configuration list for PBXNativeTarget "Spine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2AC3616BCEECE488888E58FE61B918 /* Debug */,
+				A1D25DD6BBD1C99744D09FB6B4B3D883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

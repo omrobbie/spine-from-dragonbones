@@ -15,6 +15,8 @@
 		778C8DA0203F350200EA1A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778C8D9E203F350200EA1A25 /* Main.storyboard */; };
 		778C8DA2203F350200EA1A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 778C8DA1203F350200EA1A25 /* Assets.xcassets */; };
 		778C8DA5203F350200EA1A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 778C8DA3203F350200EA1A25 /* LaunchScreen.storyboard */; };
+		FC38282E21E974730032B858 /* bembi.json in Resources */ = {isa = PBXBuildFile; fileRef = FC38282D21E974730032B858 /* bembi.json */; };
+		FC38283221E9C2C10032B858 /* goblin.json in Resources */ = {isa = PBXBuildFile; fileRef = FC38283121E9C2580032B858 /* goblin.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		778C8DA4203F350200EA1A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		778C8DA6203F350200EA1A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA4C7E843F882DE86016AC5C /* Pods-SpineSampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpineSampleProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpineSampleProject/Pods-SpineSampleProject.release.xcconfig"; sourceTree = "<group>"; };
+		FC38282D21E974730032B858 /* bembi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bembi.json; sourceTree = "<group>"; };
+		FC38283121E9C2580032B858 /* goblin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = goblin.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				778C8D9E203F350200EA1A25 /* Main.storyboard */,
 				778C8DA1203F350200EA1A25 /* Assets.xcassets */,
 				7710A9C3203F708D001D5366 /* goblins-ess.json */,
+				FC38283121E9C2580032B858 /* goblin.json */,
+				FC38282D21E974730032B858 /* bembi.json */,
 				778C8DA3203F350200EA1A25 /* LaunchScreen.storyboard */,
 				778C8DA6203F350200EA1A25 /* Info.plist */,
 			);
@@ -123,11 +129,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Max Gribov";
 				TargetAttributes = {
 					778C8D90203F350200EA1A25 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,10 +162,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC38283221E9C2C10032B858 /* goblin.json in Resources */,
 				778C8DA0203F350200EA1A25 /* Main.storyboard in Resources */,
 				778C8DA2203F350200EA1A25 /* Assets.xcassets in Resources */,
 				778C8DA5203F350200EA1A25 /* LaunchScreen.storyboard in Resources */,
 				7710A9C4203F708D001D5366 /* goblins-ess.json in Resources */,
+				FC38282E21E974730032B858 /* bembi.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +259,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -257,6 +267,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -307,6 +318,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -314,6 +326,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -354,7 +367,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.maxgribov.SpineSampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -370,7 +383,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.maxgribov.SpineSampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
